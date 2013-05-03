@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title><%= "#{yield(:title)} | " if content_for?(:title) %>Scott Bartell</title>
+  <title><%= "#{yield(:title)} | " if content_for?(:title) %>Spencer Montgomery</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="shortcut icon" href="<%= image_path('favicon.ico') %>">
   <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds.feedburner.com/scottbartell">
@@ -13,7 +13,7 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
   <meta property="fb:app_id" content="<%= FACEBOOK_APP_ID %>">
-  <meta property="og:site_name" content="Scott Bartell">
+  <meta property="og:site_name" content="Spencer Montgomery">
   <%= yield(:head) -%>
 </head>
 <body>

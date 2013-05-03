@@ -7,7 +7,7 @@ module CategoriesHelper
     key = "category-#{category.id}-description"
     description = Rails.cache.read(key)
     unless description
-      description = "#{category.name.titleize} articles written by Scott Bartell"
+      description = "#{category.name.titleize} articles written by Spencer Montgomery"
       Rails.cache.write(key, description)
     end
     description
