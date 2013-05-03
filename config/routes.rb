@@ -9,7 +9,7 @@ Blog::Application.routes.draw do
   get '/blog', to: redirect('/')
   get '/blog/:page', to: redirect { |params, request| "/#{params[:page]}" }
   get '/posts/:page', to: redirect { |params, request| "/#{params[:page]}" }
-  get '/about-scott-bartell', to: redirect('/')
+  get '/about-spencer-montgomery', to: redirect('/')
   get '/about', to: redirect('/')
   get '/why-google', to: redirect('/why-google+-pages-should-not-be-ignored')
   get '/tags', to: redirect('/categories')
