@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 javascript = Category.create(:name => 'javascript')
-startups = Category.create(:name => 'startups')
+entrepreneurship = Category.create(:name => 'entrepreneurship')
 ruby = Category.create(:name => 'ruby')
 life = Category.create(:name => 'life')
 web = Category.create(:name => 'web development')
